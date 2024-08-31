@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
+import { structuredData } from "@/data";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +19,6 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* Google Analytics */}
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-43RTSK8GHZ"
@@ -54,12 +54,15 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image" />
 
         {/* Favicon and Icons */}
-        <link rel="icon" href="/jsm-logo.png" sizes="any" />
+        <link rel="icon" href="/logosvg.svg" sizes="any" />
         <link rel="apple-touch-icon" href="/logo192.png" />
         <link rel="manifest" href="/manifest.json" />
+
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
       </head>
       <body className={inter.className}>
-        <noscript>You need to enable JavaScript to run this app.</noscript>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

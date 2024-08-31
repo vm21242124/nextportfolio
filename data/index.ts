@@ -5,6 +5,29 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
+export const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Vinod Mali",
+  jobTitle: "Software Engineer Intern",
+  url: "https://yourportfolio.com",
+  sameAs: [
+    "https://www.linkedin.com/in/vinodmali01/",
+    "https://github.com/vm21242124",
+  ],
+  worksFor: {
+    "@type": "Organization",
+    name: "BBD Software",
+  },
+  knowsAbout: ["React", "Node", "JavaScript", "Microservices", "AWS"],
+  alumniOf: {
+    "@type": "CollegeOrUniversity",
+    name: "Your University",
+  },
+};
+export const resumeUrl =
+  "https://drive.google.com/file/d/1Kwy7AQNIBmXORa0FwlyPw4WKVeFJzuLv/view?usp=sharing";
+
 export const gridItems = [
   {
     id: 2,
@@ -54,11 +77,11 @@ export const projects = [
     title: "smart EV Charging System",
     des: "EV charging system for charging station and EV Owner.",
     img: "/smartev.png",
-    skillused: ["HTML/CSS","JavaScript","MySql","SpringBoot"],
+    skillused: ["HTML/CSS", "JavaScript", "MySql", "SpringBoot"],
     link: "https://github.com/vinodmalibbd",
-    buttons:[
+    buttons: [
       {
-        name:"github",
+        name: "github",
         link: "https://github.com/vinodmalibbd",
       },
       // {
@@ -66,64 +89,63 @@ export const projects = [
       //   link: "https://charge-ev.bbdgrad.projects.com",
       // },
       {
-        name:"demo",
+        name: "demo",
         link: "https://www.linkedin.com/feed/update/urn:li:activity:7094546597606248450/",
-      }
-    ]
+      },
+    ],
   },
   {
     id: 2,
     title: "ReadMe - generator App",
     des: "Readme generator and downloader React app",
     img: "/readme.png",
-    skillused: ["React","Node","Express","MongoDB"],
+    skillused: ["React", "Node", "Express", "MongoDB"],
     link: "https://github.com/vinodmalibbd",
-    buttons:[
+    buttons: [
       {
-        name:"github",
+        name: "github",
         link: "https://github.com/vm21242124/ReadMeGenerator",
       },
       {
-        name:"live",
+        name: "live",
         link: "https://yourreadme.vercel.app",
       },
       // {
       //   name:"demo",
       //   link: "https://github.com/vm21242124/ReadMeGenerator",
       // }
-    ]
+    ],
   },
   {
     id: 3,
     title: "NeetCode - Coding platform",
     des: "created neetcode platform to solve dsa problem and create problems.",
     img: "/neetcode.png",
-    skillused: ["React","Node","Express","MongoDB"],
+    skillused: ["React", "Node", "Express", "MongoDB"],
     link: "https://github.com/vinodmalibbd",
-    buttons:[
+    buttons: [
       {
-        name:"github",
+        name: "github",
         link: "https://github.com/vm21242124/neetcode-frontend",
       },
       {
-        name:"demo",
+        name: "demo",
         link: "https://www.linkedin.com/feed/update/urn:li:activity:7094546597606248450/",
-      }
-    ]
-    
+      },
+    ],
   },
   {
     id: 4,
     title: "Vercel - react app deployer",
     des: "created a app to deploy and run your production ready react app",
     img: "/p4.svg",
-    skillused: ["React","Node","Express","MongoDB","AWS"],
+    skillused: ["React", "Node", "Express", "MongoDB", "AWS"],
     link: "https://github.com/vinodmalibbd",
-    buttons:[
+    buttons: [
       {
-        name:"github",
+        name: "github",
         link: "https://github.com/vm21242124/vercel",
-      }
+      },
       // {
       //   name:"live",
       //   link: "https://github.com/vinodmalibbd",
@@ -132,7 +154,7 @@ export const projects = [
       //   name:"demo",
       //   link: "https://github.com/vinodmalibbd",
       // }
-    ]
+    ],
   },
 ];
 
@@ -141,30 +163,30 @@ export const testimonials = [
     quote:
       "I have had the pleasure of working with Vinod, a passionate software engineer who consistently goes above and beyond to deliver high-quality work. His dedication to his craft is evident in the way he tackles complex challenges and diligently completes every task he takes on. Vinod's ability to quickly learn new technologies and concepts is impressive, and his curiosity drives him to constantly expand his skill set.\n One of Vinod's standout qualities is his openness to feedback. He listens attentively and seamlessly integrates suggestions into his work, continuously improving and refining his skills. Beyond his technical abilities, Vinod is a humble and down-to-earth individual. He communicates effectively, ensuring that everyone on the team is on the same page.\nWorking with Vinod has been a truly rewarding experience. His combination of technical prowess, curiosity, humility makes him an invaluable asset to any team. I highly recommend Vinod for any opportunity that comes his way.",
     name: "Akshay Deole",
-    img:"/akshay.png",
+    img: "/akshay.png",
     title: "Tech Lead at BBD Software",
   },
   {
     quote:
       "Vinod is a passionate software engineer who often goes to great lengths to deliver tickets. He is also a fast learner and a curious person who has a skill for listening and adapting feedback into his work. He is also a humble person, a good communicator and a time conscious developer, making him a wonderful teammate to work with.",
     name: "Benedict Dube",
-    img:"/benedict.png",
+    img: "/benedict.png",
     title: "Software Engineer at BBD Software",
   },
   {
     quote:
       "Vinod is an exception developer and goes an extra mile to reach his goals. He's committed, willing to learn and a Team player. I recommend him to any Team.\nContinue being exceptional Vinod…",
     name: "Arthur Sibanyoni",
-    img:"/arthur.png",
+    img: "/arthur.png",
     title: "Scrum Master at Vodacom",
   },
   {
     quote:
       "Vinod is a passionate software engineer who often goes to great lengths to deliver tickets. He is also a fast learner and a curious person who has a skill for listening and adapting feedback into his work. He is also a humble person, a good communicator and a time conscious developer, making him a wonderful teammate to work with...",
     name: "Krunal Parmar",
-    img:"/krunal.png",
+    img: "/krunal.png",
     title: "Tech Lead at BBD Software",
-  }
+  },
 ];
 
 export const companies = [
@@ -214,23 +236,23 @@ export const workExperience = [
     desc: "Contracted by Vodacom digital delhivery..",
     className: "md:col-span-2",
     thumbnail: "/vodacom.svg",
-  }
+  },
 ];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link:"https://github.com/vm21242124"
+    link: "https://github.com/vm21242124",
   },
   {
     id: 2,
     img: "/twit.svg",
-    link:"https://www.linkedin.com/in/vinodmali01/"
+    link: "https://www.linkedin.com/in/vinodmali01/",
   },
   {
     id: 3,
     img: "/link.svg",
-    link:"https://www.linkedin.com/in/vinodmali01/"
+    link: "https://www.linkedin.com/in/vinodmali01/",
   },
 ];

@@ -1,6 +1,7 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLocationArrow, FaDownload } from "react-icons/fa6";
 import { lazy } from "react";
 import MagicButton from "./MagicButton";
+import { resumeUrl } from "@/data";
 const Spotlight = lazy(() => import("./ui/Spotlight"));
 const TextGenerateEffect = lazy(() => import("./ui/TextGenerateEffect"));
 
@@ -45,7 +46,13 @@ const Hero = () => {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m Vinod, a Full stack Developer based in India.
           </p>
-
+          <a href={resumeUrl} download="vinod_mali_resume.pdf">
+            <MagicButton
+              title="Download Resume"
+              icon={<FaDownload />}
+              position="right"
+            />
+          </a>
           <a href="#about">
             <MagicButton
               title="Show my work"
