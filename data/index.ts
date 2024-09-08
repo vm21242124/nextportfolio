@@ -182,7 +182,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Vinod is a passionate software engineer who often goes to great lengths to deliver tickets. He is also a fast learner and a curious person who has a skill for listening and adapting feedback into his work. He is also a humble person, a good communicator and a time conscious developer, making him a wonderful teammate to work with...",
+      "I had the pleasure of leading Vinod during his six-month internship with our team. He quickly became a valuable contributor, showcasing strong skills in React.js, Node.js, and AWS.\n Vinod was proactive in taking on challenging tasks, delivering high-quality work, and effectively collaborating with the team.\n His eagerness to learn and ability to adapt made a significant impact on our projects.\n I am confident he will excel in any future role he takes on.",
     name: "Krunal Parmar",
     img: "/krunal.png",
     title: "Tech Lead at BBD Software",
