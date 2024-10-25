@@ -20,9 +20,9 @@ const Home = () => {
 
         <Hero />
         <Grid />
+        <Experience />
         <RecentProjects />
         <Clients />
-        <Experience />
         <Footer />
       </div>
     </main>
