@@ -231,12 +231,19 @@ export const workExperience = [
     thumbnail: "/bbd.svg",
   },
   {
-    id: 1,
+    id: 2,
     title: "Software Engineer",
     desc: "Contracted by Vodacom digital delhivery..",
     className: "md:col-span-2",
     thumbnail: "/vodacom.svg",
   },
+  {
+    id: 3,
+    title: "Software Developement Engineer 1",
+    desc: "Working in cyber security full stack project",
+    className: "md:col-span-2",
+    thumbnail: "/amazure.png",
+  }
 ];
 
 export const socialMedia = [
