@@ -231,14 +231,14 @@ export const workExperience = [
     thumbnail: "/amazure.png",
   },
     {
-    id: 3,
+    id: 2,
     title: "Software Engineer",
     desc: "Contracted by Vodacom digital delhivery..",
     className: "md:col-span-1",
     thumbnail: "/vodacom.svg",
   },
   {
-    id: 2,
+    id: 3,
     title: "Software Engineer Intern",
     desc: "Joined as intern to learn full stack skills",
     className: "md:col-span-1",
