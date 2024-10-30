@@ -223,27 +223,29 @@ export const companies = [
 ];
 
 export const workExperience = [
-  {
+   {
     id: 1,
-    title: "Software Engineer Intern",
-    desc: "Joined as intern to learn full stack skills",
+    title: "Software Developement Engineer 1",
+    desc: "Working in cyber security full stack project",
     className: "md:col-span-1",
-    thumbnail: "/bbd.svg",
+    thumbnail: "/amazure.png",
   },
-  {
-    id: 2,
+    {
+    id: 3,
     title: "Software Engineer",
     desc: "Contracted by Vodacom digital delhivery..",
     className: "md:col-span-1",
     thumbnail: "/vodacom.svg",
   },
   {
-    id: 3,
-    title: "Software Developement Engineer 1",
-    desc: "Working in cyber security full stack project",
+    id: 2,
+    title: "Software Engineer Intern",
+    desc: "Joined as intern to learn full stack skills",
     className: "md:col-span-1",
-    thumbnail: "/amazure.png",
+    thumbnail: "/bbd.svg",
   }
+
+ 
 ];
 
 export const socialMedia = [
