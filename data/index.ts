@@ -226,7 +226,7 @@ export const workExperience = [
    {
     id: 1,
     title: "Software Developement Engineer 1",
-    desc: "Working in cyber security full stack project",
+    desc: "• Developed Vigilhawklabs to manage critical cybersecurity tasks, including incident tracking, ticketing system like Jira, and compliance management system.\n • Designed and implemented a compliance module in Node.js from scratch and migrated to Spring Boot for security purposes, onboarded regulatory frameworks such as RBI, SEBI, ISO, and IRDA.\n • Built and integrated an incident tracking module with CrowdStrike to monitor incidents on networks and endpoints using API keys.\n • Added email notifications and user notifications for incident assignments and SLA breaches to ensure timely updates.\n • Implemented a Pub/Sub architecture with Valky (Redis) for caching, notification emails, and syncing databases, ensuring efficient communication and consistency across systems.\n • Migrated the codebase from Node.js to Spring Boot to enhance security and system robustness.\n • Implemented cron jobs to automate and efficiently manage premium services.\n • Utilized PostgreSQL and MongoDB for reliable data storage, incorporating features such as auditing, logging, and API key management to support secure and seamless incident creation.\n • Implemented the deployment process from scratch for on-premises setup for clients with Docker and Nginx.\n • Integrated tools like Prometheus, Kibana, Swagger, and Grafana for live monitoring, timely alerts, visualizing system performance, and enhancing observability and management.",
     className: "md:col-span-1",
     thumbnail: "/amazure.png",
   },
