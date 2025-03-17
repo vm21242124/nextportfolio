@@ -233,7 +233,7 @@ export const workExperience = [
     {
     id: 2,
     title: "Software Engineer",
-    desc: "Contracted by Vodacom digital delhivery..",
+    desc: "• Contracted by Vodacom to collaborate on the Business Portal team, I contributed to microservices built with React, Node.js, and Spring Boot, while learning CI/CD processes and tools for efficient deployment and integration.\n • Troubleshot and monitored Kubernetes clusters with Prometheus, Grafana, and Kibana.\n • Hands-on experience working with CI/CD pipelines using TeamCity, UrbanCode, and GitLab CI.\n • Developed frontend applications with React and styled-components, enhancing UI/UX.\n • Migrated one whole frontend journey from Angular to React.\n • Contributed to core libraries for frontend repositories, improving code reuse.",
     className: "md:col-span-1",
     thumbnail: "/vodacom.svg",
   },
