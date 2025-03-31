@@ -26,7 +26,7 @@ export const structuredData = {
   },
 };
 export const resumeUrl =
-  "https://drive.google.com/file/d/1j4Y6LB62Jk01kO3aO6Y52yNZzwCI6XKV/view?usp=sharing";
+  "https://drive.google.com/file/d/1XYdeXFH1osRjYsuiCG09s5jNInlqmuPa/view?usp=drive_link";
 
 export const gridItems = [
   {
