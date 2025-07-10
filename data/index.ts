@@ -224,7 +224,7 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Software Development Engineer 1",
+    title: "SDE (Backend devloper)",
     desc: 
       "• 🛡️ Developed Vigilhawklabs to manage critical cybersecurity tasks, including incident tracking, Jira-like ticketing, and compliance management system.\n" +
       "• 🧩 Designed a compliance module from scratch in Node.js and later migrated it to Spring Boot for enhanced security.\n" +
@@ -257,8 +257,12 @@ export const workExperience = [
     id: 3,
     title: "Software Engineer Intern",
     desc: 
-      "• 🚀 Joined as a full stack intern to gain hands-on experience in web development technologies.\n" +
-      "• 🧠 Learned the foundations of backend and frontend development during the internship.",
+        "• 🤝 Contracted by Vodacom to work on the Business Portal team, contributing to React, Node.js, and Spring Boot microservices.\n" +
+      "• 🔄 Gained hands-on experience in CI/CD using TeamCity, UrbanCode, and GitLab CI.\n" +
+      "• 📊 Monitored and troubleshot Kubernetes clusters using Prometheus, Grafana, and Kibana.\n" +
+      "• 🎨 Built frontend components using React and styled-components to improve UI/UX.\n" +
+      "• 🔁 Migrated a complete frontend user journey from Angular to React.\n" +
+      "• 📚 Contributed to core frontend libraries for better code reuse and maintainability.",
     className: "md:col-span-1",
     thumbnail: "/bbd.svg",
   }
