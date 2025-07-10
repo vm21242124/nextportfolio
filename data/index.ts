@@ -221,42 +221,44 @@ export const companies = [
     nameImg: "/dockerName.svg",
   },
 ];
-
 export const workExperience = [
   {
     id: 1,
     title: "Software Development Engineer 1",
-    desc: `• 🛡️ Developed Vigilhawklabs to manage critical cybersecurity tasks, including incident tracking, Jira-like ticketing, and compliance management system.
-• 🧩 Designed a compliance module from scratch in Node.js and later migrated it to Spring Boot for enhanced security.
-• 📜 Onboarded regulatory frameworks such as RBI, SEBI, ISO, and IRDA to the compliance module.
-• 🚨 Built and integrated an incident tracking system with CrowdStrike via API keys for endpoint and network monitoring.
-• 📧 Added real-time email and user notifications for incident assignments and SLA breaches.
-• 🔁 Implemented a Pub/Sub architecture using Valky (Redis) for caching, notifications, and DB synchronization.
-• 🔐 Migrated backend from Node.js to Spring Boot to improve robustness and security.
-• ⏰ Automated premium services using scheduled cron jobs.
-• 🛢️ Used PostgreSQL and MongoDB with features like auditing, logging, and API key management.
-• 📦 Built on-premises deployment process with Docker and Nginx.
-• 📊 Integrated monitoring tools like Prometheus, Kibana, Swagger, and Grafana for observability and real-time alerting.`,
+    desc: 
+      "• 🛡️ Developed Vigilhawklabs to manage critical cybersecurity tasks, including incident tracking, Jira-like ticketing, and compliance management system.\n" +
+      "• 🧩 Designed a compliance module from scratch in Node.js and later migrated it to Spring Boot for enhanced security.\n" +
+      "• 📜 Onboarded regulatory frameworks such as RBI, SEBI, ISO, and IRDA to the compliance module.\n" +
+      "• 🚨 Built and integrated an incident tracking system with CrowdStrike via API keys for endpoint and network monitoring.\n" +
+      "• 📧 Added real-time email and user notifications for incident assignments and SLA breaches.\n" +
+      "• 🔁 Implemented a Pub/Sub architecture using Valky (Redis) for caching, notifications, and DB synchronization.\n" +
+      "• 🔐 Migrated backend from Node.js to Spring Boot to improve robustness and security.\n" +
+      "• ⏰ Automated premium services using scheduled cron jobs.\n" +
+      "• 🛢️ Used PostgreSQL and MongoDB with features like auditing, logging, and API key management.\n" +
+      "• 📦 Built on-premises deployment process with Docker and Nginx.\n" +
+      "• 📊 Integrated monitoring tools like Prometheus, Kibana, Swagger, and Grafana for observability and real-time alerting.",
     className: "md:col-span-1",
     thumbnail: "/amazure.png",
   },
   {
     id: 2,
     title: "Software Engineer",
-    desc: `• 🤝 Contracted by Vodacom to work on the Business Portal team, contributing to React, Node.js, and Spring Boot microservices.
-• 🔄 Gained hands-on experience in CI/CD using TeamCity, UrbanCode, and GitLab CI.
-• 📊 Monitored and troubleshot Kubernetes clusters using Prometheus, Grafana, and Kibana.
-• 🎨 Built frontend components using React and styled-components to improve UI/UX.
-• 🔁 Migrated a complete frontend user journey from Angular to React.
-• 📚 Contributed to core frontend libraries for better code reuse and maintainability.`,
+    desc: 
+      "• 🤝 Contracted by Vodacom to work on the Business Portal team, contributing to React, Node.js, and Spring Boot microservices.\n" +
+      "• 🔄 Gained hands-on experience in CI/CD using TeamCity, UrbanCode, and GitLab CI.\n" +
+      "• 📊 Monitored and troubleshot Kubernetes clusters using Prometheus, Grafana, and Kibana.\n" +
+      "• 🎨 Built frontend components using React and styled-components to improve UI/UX.\n" +
+      "• 🔁 Migrated a complete frontend user journey from Angular to React.\n" +
+      "• 📚 Contributed to core frontend libraries for better code reuse and maintainability.",
     className: "md:col-span-1",
     thumbnail: "/vodacom.svg",
   },
   {
     id: 3,
     title: "Software Engineer Intern",
-    desc: `• 🚀 Joined as a full stack intern to gain hands-on experience in web development technologies.
-• 🧠 Learned the foundations of backend and frontend development during the internship.`,
+    desc: 
+      "• 🚀 Joined as a full stack intern to gain hands-on experience in web development technologies.\n" +
+      "• 🧠 Learned the foundations of backend and frontend development during the internship.",
     className: "md:col-span-1",
     thumbnail: "/bbd.svg",
   }
