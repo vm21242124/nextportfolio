@@ -223,29 +223,43 @@ export const companies = [
 ];
 
 export const workExperience = [
-   {
+  {
     id: 1,
-    title: "Software Developement Engineer 1",
-    desc: "• Developed Vigilhawklabs to manage critical cybersecurity tasks, including incident tracking, ticketing system like Jira, and compliance management system.\n • Designed and implemented a compliance module in Node.js from scratch and migrated to Spring Boot for security purposes, onboarded regulatory frameworks such as RBI, SEBI, ISO, and IRDA.\n • Built and integrated an incident tracking module with CrowdStrike to monitor incidents on networks and endpoints using API keys.\n • Added email notifications and user notifications for incident assignments and SLA breaches to ensure timely updates.\n • Implemented a Pub/Sub architecture with Valky (Redis) for caching, notification emails, and syncing databases, ensuring efficient communication and consistency across systems.\n • Migrated the codebase from Node.js to Spring Boot to enhance security and system robustness.\n • Implemented cron jobs to automate and efficiently manage premium services.\n • Utilized PostgreSQL and MongoDB for reliable data storage, incorporating features such as auditing, logging, and API key management to support secure and seamless incident creation.\n • Implemented the deployment process from scratch for on-premises setup for clients with Docker and Nginx.\n • Integrated tools like Prometheus, Kibana, Swagger, and Grafana for live monitoring, timely alerts, visualizing system performance, and enhancing observability and management.",
+    title: "Software Development Engineer 1",
+    desc: `• 🛡️ Developed Vigilhawklabs to manage critical cybersecurity tasks, including incident tracking, Jira-like ticketing, and compliance management system.
+• 🧩 Designed a compliance module from scratch in Node.js and later migrated it to Spring Boot for enhanced security.
+• 📜 Onboarded regulatory frameworks such as RBI, SEBI, ISO, and IRDA to the compliance module.
+• 🚨 Built and integrated an incident tracking system with CrowdStrike via API keys for endpoint and network monitoring.
+• 📧 Added real-time email and user notifications for incident assignments and SLA breaches.
+• 🔁 Implemented a Pub/Sub architecture using Valky (Redis) for caching, notifications, and DB synchronization.
+• 🔐 Migrated backend from Node.js to Spring Boot to improve robustness and security.
+• ⏰ Automated premium services using scheduled cron jobs.
+• 🛢️ Used PostgreSQL and MongoDB with features like auditing, logging, and API key management.
+• 📦 Built on-premises deployment process with Docker and Nginx.
+• 📊 Integrated monitoring tools like Prometheus, Kibana, Swagger, and Grafana for observability and real-time alerting.`,
     className: "md:col-span-1",
     thumbnail: "/amazure.png",
   },
-    {
+  {
     id: 2,
     title: "Software Engineer",
-    desc: "• Contracted by Vodacom to collaborate on the Business Portal team, I contributed to microservices built with React, Node.js, and Spring Boot, while learning CI/CD processes and tools for efficient deployment and integration.\n • Troubleshot and monitored Kubernetes clusters with Prometheus, Grafana, and Kibana.\n • Hands-on experience working with CI/CD pipelines using TeamCity, UrbanCode, and GitLab CI.\n • Developed frontend applications with React and styled-components, enhancing UI/UX.\n • Migrated one whole frontend journey from Angular to React.\n • Contributed to core libraries for frontend repositories, improving code reuse.",
+    desc: `• 🤝 Contracted by Vodacom to work on the Business Portal team, contributing to React, Node.js, and Spring Boot microservices.
+• 🔄 Gained hands-on experience in CI/CD using TeamCity, UrbanCode, and GitLab CI.
+• 📊 Monitored and troubleshot Kubernetes clusters using Prometheus, Grafana, and Kibana.
+• 🎨 Built frontend components using React and styled-components to improve UI/UX.
+• 🔁 Migrated a complete frontend user journey from Angular to React.
+• 📚 Contributed to core frontend libraries for better code reuse and maintainability.`,
     className: "md:col-span-1",
     thumbnail: "/vodacom.svg",
   },
   {
     id: 3,
     title: "Software Engineer Intern",
-    desc: "Joined as intern to learn full stack skills",
+    desc: `• 🚀 Joined as a full stack intern to gain hands-on experience in web development technologies.
+• 🧠 Learned the foundations of backend and frontend development during the internship.`,
     className: "md:col-span-1",
     thumbnail: "/bbd.svg",
   }
-
- 
 ];
 
 export const socialMedia = [
